@@ -1,0 +1,55 @@
+/* ------ Navigation ------- */
+
+nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 5em;
+    background: var(--home-color);
+    background: transparent;
+    transition: background-color 0.3s ease-in-out,
+                border-bottom 0.3s ease-in-out;
+}
+
+nav.anim-nav {
+    background: var(--home-color);
+    border-bottom: 1px solid var(--text-main-color);
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 2em;
+}
+
+nav a {
+    font-size: 20px;
+    color: var(--text-main-color);
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: var(--carribean-green);
+}
+
+.logo{
+    width: 3.5rem;
+    height: 3rem;
+}
+
+/* ------ Navigation : Media queries ------- */
+
+@media screen and (max-width: 550px) {
+    nav li {
+        margin: 0 0.5em;
+    }
+    nav a {
+        font-size: 15px;
+    }   
+}

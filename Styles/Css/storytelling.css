@@ -1,0 +1,29 @@
+/* STORYTELLING */
+
+.storytelling{
+    margin-bottom: 6em;
+    max-width: 80%;
+    text-align: justify;
+}
+
+.storytelling-title{
+    text-align: left;
+    font-size: 3em;
+    color: var(--home-color);
+    font-family: 'Clicker Script', cursive;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-bottom: -0.2em;
+}
+
+.storytelling span{
+    color: var(--home-color);
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.storytelling-text{
+    font-size: 1.5em;
+    margin-left: 8em;
+    margin-top: 1em;
+}
